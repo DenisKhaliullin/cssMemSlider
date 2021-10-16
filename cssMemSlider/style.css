@@ -1,34 +1,32 @@
-html {
-    font-size: 10px;
-}
 
 body {
-    margin-top: 30px;
+    margin-top: 3rem;
     padding: 0;
     background: #0f2b46;
     font-size: 1.6rem;
+    overflow-x: hidden;
 }
 
 .slider__wrapper {
-    width: 750px;
-    height: 400px;
+    width: 70%;
+    height: auto;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
-    margin-top: 20px;
+    width: 50rem;
+    margin-top: 2rem;
     margin: auto;
-    padding: 50px;
+    padding: 5rem;
     background: #1c354d;
 }
 
 .header {
-    font-size: 8rem;
+    font-size: 5rem;
 }
 
 body input {
@@ -39,24 +37,24 @@ body input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 750px;
-    height: 80px;
+    width: 35rem;
+    height: 8rem;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 1.5rem;
 }
 
 .navigation label {
-    height: 10px;
-    width: 10px;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
-    border: solid #fff 3px;
+    border: solid #fff 0.3rem;
     cursor: pointer;
     transition: all 0.15s ease;
-    margin: 5px;
+    margin: 0.5rem;
     transition: 0.5s;
 }
 
@@ -114,7 +112,7 @@ body input {
 /* mem slider */
 
 .mem-slider__wrapper {
-    width: 400px;
+    width: 40rem;
     overflow: hidden;
 }
 
@@ -127,4 +125,26 @@ body input {
 .mem {
     width: 20%;
     transition: 0.5s;
+}
+
+
+@media (max-width: 420px) {
+    header {
+        display: none;
+    }
+
+    .slider__wrapper {
+        width: 100%;
+    }
+    .control-block__wrapper {
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+
+    .mem-slider__wrapper{
+        width: 50rem;
+    }
+    .text {
+        font-size: 3rem;
+    }
 }
