@@ -1,6 +1,6 @@
 
 body {
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0;
     background: #0f2b46;
     font-size: 1.6rem;
@@ -21,7 +21,7 @@ body {
     width: 50rem;
     margin-top: 2rem;
     margin: auto;
-    padding: 5rem;
+    padding: 2rem;
     background: #1c354d;
 }
 
@@ -98,7 +98,7 @@ body input {
     margin-left: -60%;
 }
 #r5:checked ~ .container .slider__wrapper .inner-slider__wrapper .s1,
-#r5:checked ~ .container.control-block__wrapper .mem-slider__wrapper .inner-mem__wrapper .m1 {
+#r5:checked ~ .container .control-block__wrapper .mem-slider__wrapper .inner-mem__wrapper .m1 {
     margin-left: -80%;
 }
 
